@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="background_purple">
+      <div class="background_frente">
+        <div class="dados_cartao_frente">
+          <div class="logo">
+            <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff" />
+              <path
+                d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z"
+                stroke="#fff" />
+            </svg>
+          </div>
+          <div class="numbers">
+            <p>0000 0000 0000 0000</p>
+          </div>
+          <div class="infos_cartao">
+            <div class="name">
+              <p>Jane Applessed</p>
+            </div>
+            <div class="mes_ano">
+              <p>00/00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background_costas">
+        <div class="dados_cartao_costas">
+          <div class="cvv_cartao_costas">
+            <p>000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body_princ">
+      <div class="name text">
+        <p>Nome no Cartão</p>
+        <input type="text" placeholder="Nome Completo" id="full_name">
+      </div>
+      <div class="numero_cartao text">
+        <p>Número do Cartão</p>
+        <input type="Number" placeholder="0000-0000-0000-0000" id="card_number">
+      </div>
+      <div class="info_cartao">
+        <div class="data_cartao">
+          <p>Data (Mês / Ano)</p>
+          <input type="Number" placeholder="MM" id="mes">
+          <input type="Number" placeholder="YY" id="ano">
+        </div>
+        <div class="cvv_cartao">
+          <p>CVV</p>
+          <input type="Number" placeholder="123" id="cvv">
+        </div>
+      </div>
+      <div class="button_confirm">
+        <button>Confirm</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.background_purple {
+  background-image: url(images/bg-main-desktop.png);
+  height: 100vh;
+  width: 30%;
+}
+
+.body_princ {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rem;
+}
+
+.background_frente {
+  background-image: url(images/bg-card-front.png);
+  position: relative;
+  height: 245px;
+  width: 445px;
+  left: 130px;
+  top: 100px;
+}
+
+.background_costas {
+  background-image: url(images/bg-card-back.png);
+  position: relative;
+  height: 245px;
+  width: 445px;
+  left: 250px;
+  top: 150px;
+}
+
+.dados_cartao_frente {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding: .5rem 2.5rem;
+}
+
+.infos_cartao {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.infos_cartao p {
+  margin: 0px;
+  margin-bottom: 1rem;
+}
+
+.numbers p {
+  width: 100%;
+  font-size: 32px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+}
+
+.dados_cartao_costas {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: white;
+}
+
+.cvv_cartao_costas {
+  margin-right: 3rem;
+}
+
+.text p {
+  color: #2b1f4b;
+  margin: 0px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.text input {
+  margin-bottom: 1.5rem;
+  border: 1px solid #dddbdf;
+  border-radius: 5px;
+  width: 95%;
+  padding: .5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.info_cartao{
+  display: flex;
+}
+
+.data_cartao p{
+  color: #2b1f4b;
+  margin: 0px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+#mes{
+  margin-bottom: 1.5rem;
+  border: 1px solid #dddbdf;
+  border-radius: 5px;
+  width: 27px;
+  padding: .5rem;
+  margin-right: 1rem;
+}
+#ano{
+  margin-bottom: 1.5rem;
+  border: 1px solid #dddbdf;
+  border-radius: 5px;
+  width: 27px;
+  padding: .5rem;
+}
+
+.cvv_cartao p{
+  color: #2b1f4b;
+  margin: 0px;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  margin-left: 1.5rem;
+}
+.cvv_cartao input{
+  margin-bottom: 1.5rem;
+  border: 1px solid #dddbdf;
+  border-radius: 5px;
+  width: auto;
+  padding: .5rem;
+  margin-left: 1.5rem;
+}
+.button_confirm button{
+  width: 100%;
+  background-color: #2b1f4b;
+  color: white;
+  border: 0px;
+  padding: 1rem 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
