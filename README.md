@@ -1,1 +1,4 @@
-# Valida-o-Cart-o
+Aplicação para Desktop.
+<br>
+Funções Javascript não adicionado completamaente.
+<br>
